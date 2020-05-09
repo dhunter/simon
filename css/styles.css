@@ -1,0 +1,66 @@
+:root {
+    --first-color: #FEF2BF;
+    --second-color: #000000;
+    --third-color:#808080;
+    --fourth-color:#ffffff;
+    --fifth-color: #011F3F;
+
+    --simon-blue: #0000ff;
+    --simon-green: #008000;
+    --simon-red: #ff0000;
+    --simon-yellow: #ffff00;  
+}
+
+#level-title {
+    color: var(--first-color);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    margin: 5%;
+}
+
+.blue {
+    background-color: var(--simon-blue);
+}
+
+.btn {
+    border: 0.625rem solid var(--second-color);
+    border-radius: 20%;
+    display: inline-block;
+    height: 10rem;
+    margin: 1rem;
+    width: 10rem;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.game-over {
+    background-color: var(--simon-red);
+    opacity: 0.8;
+}
+
+.green {
+    background-color: var(--simon-green);
+}
+
+.pressed {
+    /* background-color: var(--third-color); */
+    box-shadow: 0 0 1.25rem var(--fourth-color);
+    opacity: 0.8;
+}
+  
+.red {
+    background-color: var(--simon-red);
+}
+
+.yellow {
+    background-color: var(--simon-yellow);
+}
+
+body {
+    background-color: var(--fifth-color);
+    text-align: center;
+}
