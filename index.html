@@ -5,21 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simon</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1 id="level-title">Press A Key to Start</h1>
+    <h1 id="level_title">Press Start Button</h1>
+    <button id="start_button" class="btn btn-lg btn-outline-light">Start</button>
     <div class="container">
         <div class="row">
-            <div type="button" id="green" class="btn green">
+            <div type="button" id="green" class="simon_button green">
             </div>
-            <div type="button" id="red" class="btn red">
+            <div type="button" id="red" class="simon_button red">
             </div>
         </div>
         <div class="row">
-            <div type="button" id="yellow" class="btn yellow">
+            <div type="button" id="yellow" class="simon_button yellow">
             </div>
-            <div type="button" id="blue" class="btn blue">
+            <div type="button" id="blue" class="simon_button blue">
             </div>
         </div>  
     </div>
