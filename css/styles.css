@@ -44,7 +44,7 @@
 .pressed {
     /* background-color: var(--third_color); */
     box-shadow: 0 0 1.25rem var(--fourth_color);
-    opacity: 0.8;
+    opacity: 0.7;
 }
   
 .red {
